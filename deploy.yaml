@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: project-dev2
   labels:
-    app: peoject
+    app: project
 spec:
   replicas: 2
   selector:
