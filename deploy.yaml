@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: project-dev2
+  name: project-intel-dpth-dev2
   labels:
     app: project
 spec:
