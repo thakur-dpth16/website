@@ -15,7 +15,7 @@ spec:
         app: project
     spec:
       containers:
-      - name: project2-deployement
+      - name: project2
         image: dilip1690/project-image
         ports:
         - containerPort: 80
