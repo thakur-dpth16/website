@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: project-intel-dpth-dev2
+  name: project2-deployement
   labels:
     app: project
 spec:
@@ -15,7 +15,7 @@ spec:
         app: project
     spec:
       containers:
-      - name: project
+      - name: project2-deployement
         image: dilip1690/project-image
         ports:
         - containerPort: 80
