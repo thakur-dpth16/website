@@ -4,9 +4,10 @@ metadata:
   name: my-service
 spec:
   type: NodePort
- ports:
+selector:
+    app: apache2
+ports:
     - targetPort: 80
       port: 80
       nodePort: 30008
-  selector:
-    app: apache2
+
